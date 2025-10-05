@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import "./StudentManager.css";
 
-const API_URL = "http://localhost:5000/api/students"; // Update if deployed
+const API_URL = "https://kapil-thakur-24bcs80042-student.onrender.com/api/students"; // Update if deployed
 
 const courses = ["Computer Science", "Electronics", "Mechanical", "Civil", "Mathematics"];
 
